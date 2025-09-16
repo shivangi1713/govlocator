@@ -34,6 +34,7 @@ GovLocator is designed to assist citizens, especially in rural and urban areas, 
 
 ## 🔄 Workflow
 <img width="512" height="750" alt="ChatGPT Image Sep 16, 2025, 12_13_16 PM" src="https://github.com/user-attachments/assets/8e4ce375-a1dc-4a21-92a1-65b994183359" />
+
 1. **User inputs a location** (e.g., city or area name)
 2. **Autocomplete suggestions** appear as the user types
 3. **User selects the type of government service** (e.g., police station)
