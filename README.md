@@ -47,4 +47,5 @@ GovLocator is designed to assist citizens, especially in rural and urban areas, 
 ---
 
 ## 🚀 How to Use
-<img width="1024" height="1536" alt="ChatGPT Image Sep 16, 2025, 02_02_12 PM" src="https://github.com/user-attachments/assets/5b6747a5-c624-4274-ba01-ce7f146834e2" />
+<img width="512" height="768" alt="resized_flowchart" src="https://github.com/user-attachments/assets/5f1e1b5a-cc8f-4352-8475-a7031b747757" />
+
