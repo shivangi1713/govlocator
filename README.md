@@ -1,5 +1,6 @@
 # 🗺️ GovLocator
-<img width="1297" height="726" alt="image" src="https://github.com/user-attachments/assets/766d1048-3ed1-4b72-9921-8f6ecc18a408" />
+<img width="1270" height="595" alt="image" src="https://github.com/user-attachments/assets/c6bd9cfe-edb4-4df4-8520-b47c69518102" />
+
 
 **GovLocator** is a web-based application that helps users easily locate nearby government services such as public health centers (PHCs), police stations, fire stations, ration shops, and schools. Powered by the Google Maps Platform, it enables users to search by location and view nearby public services on an interactive map.
 
@@ -32,7 +33,7 @@ GovLocator is designed to assist citizens, especially in rural and urban areas, 
 ---
 
 ## 🔄 Workflow
-
+<img width="1024" height="1536" alt="ChatGPT Image Sep 16, 2025, 12_13_16 PM" src="https://github.com/user-attachments/assets/8e4ce375-a1dc-4a21-92a1-65b994183359" />
 1. **User inputs a location** (e.g., city or area name)
 2. **Autocomplete suggestions** appear as the user types
 3. **User selects the type of government service** (e.g., police station)
@@ -42,19 +43,8 @@ GovLocator is designed to assist citizens, especially in rural and urban areas, 
    - Displays results as interactive map markers
 5. **Info windows** show name and address when markers are clicked
 
+
 ---
 
 ## 🚀 How to Use
-1. Open the Website
-👉 https://shivangi1713.github.io/govlocator/
-2. Enter a location in the search bar (e.g., Delhi, Mumbai).
-3. Choose from available government services like:
-[Health Centers (PHC)
-Police Stations
-Fire Stations
-Ration Shops (PDS)
-Schools / Colleges]
-4. Click “Search”.
-5. Map displays markers for nearby government services.
-6. Click a marker to see the service name and address.
-7. 🔄 Repeat to search other locations or service types.
+<img width="1024" height="1536" alt="ChatGPT Image Sep 16, 2025, 02_02_12 PM" src="https://github.com/user-attachments/assets/5b6747a5-c624-4274-ba01-ce7f146834e2" />
