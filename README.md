@@ -1,4 +1,5 @@
 # 🗺️ GovLocator
+<img width="1297" height="726" alt="image" src="https://github.com/user-attachments/assets/766d1048-3ed1-4b72-9921-8f6ecc18a408" />
 
 **GovLocator** is a web-based application that helps users easily locate nearby government services such as public health centers (PHCs), police stations, fire stations, ration shops, and schools. Powered by the Google Maps Platform, it enables users to search by location and view nearby public services on an interactive map.
 
