@@ -44,8 +44,14 @@ GovLocator is designed to assist citizens, especially in rural and urban areas, 
 ---
 
 ## 🚀 How to Use
+🔎 Enter a location in the search bar (e.g., Delhi, Mumbai)
 
-### 1. **Clone or Download the Project**
-```bash
-git clone https://github.com/yourusername/govlocator.git
-cd govlocator
+📍 Select a service type (e.g., Hospital, Police Station)
+
+🧭 Click “Search”
+
+🗺️ Map displays markers for nearby government services
+
+📝 Click a marker to see the service name and address
+
+🔄 Repeat to search other locations or service types
