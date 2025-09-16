@@ -1,21 +1,51 @@
-# GovLocator
+# 🗺️ GovLocator
 
-## Setup to run locally
+**GovLocator** is a web-based application that helps users easily locate nearby government services such as public health centers (PHCs), police stations, fire stations, ration shops, and schools. Powered by the Google Maps Platform, it enables users to search by location and view nearby public services on an interactive map.
 
-1. Clone or extract this folder.
+---
 
-2. Get a Google Maps API key with **Maps JavaScript API** and **Places API** enabled.
+## 📌 Project Overview
 
-3. Replace `YOUR_API_KEY` in `index.html` with your API key.
+GovLocator is designed to assist citizens, especially in rural and urban areas, by providing quick and easy access to information about government services in their vicinity. It simplifies location-based search using Google Maps and Places APIs and supports improved civic awareness and access to essential resources.
 
-4. Run locally: You can either
-   - open `index.html` via browser directly, or
-   - use a local server (recommended), e.g., `npx http-server` or via VSCode Live Server.
+---
 
-5. Enter a location, pick a service type, hit Search. Markers appear for nearby government services.
+## 🎯 Objective
 
-## Notes
+- Help citizens locate essential government services with ease
+- Enhance access to information in underserved or remote areas
+- Provide a user-friendly and visually appealing map-based interface
+- Demonstrate the potential of Google Maps API in public service tools
 
-- You may need to enable billing on your Google Cloud account (for free tier you get certain quota).
-- You can adjust search radius, map center etc.
-- Later you can host this on Netlify, GitHub Pages etc.
+---
+
+## 🧩 Key Components
+
+- **Google Maps JavaScript API** – for rendering interactive maps
+- **Google Places API** – for finding nearby government service locations
+- **Google Places Autocomplete** – for intelligent location input suggestions
+- **Geocoding API** – to convert user input into geographic coordinates
+- **HTML/CSS/JavaScript** – for building the frontend interface
+- **Responsive Design** – fully usable on desktop and mobile
+
+---
+
+## 🔄 Workflow
+
+1. **User inputs a location** (e.g., city or area name)
+2. **Autocomplete suggestions** appear as the user types
+3. **User selects the type of government service** (e.g., police station)
+4. On clicking **Search**, the app:
+   - Geocodes the location to coordinates
+   - Uses the Places API to find nearby results
+   - Displays results as interactive map markers
+5. **Info windows** show name and address when markers are clicked
+
+---
+
+## 🚀 How to Use
+
+### 1. **Clone or Download the Project**
+```bash
+git clone https://github.com/yourusername/govlocator.git
+cd govlocator
