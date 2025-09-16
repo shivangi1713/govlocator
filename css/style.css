@@ -1,0 +1,110 @@
+/* ---------- Global Styles ---------- */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff7f0;
+  color: #333;
+  animation: fadeIn 1s ease-in;
+}
+
+/* ---------- Header ---------- */
+h1 {
+  text-align: center;
+  background: linear-gradient(to right, #ff6f00, #ff8f00);
+  color: white;
+  padding: 25px 0;
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- Controls ---------- */
+#controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 6px 8px rgba(255, 111, 0, 0.05);
+  gap: 12px;
+  animation: fadeInUp 1s ease-out;
+  border-bottom: 2px solid #ff8f00;
+}
+
+/* ---------- Inputs & Button ---------- */
+#search-input,
+#service-type,
+#search-btn {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+#search-input:focus,
+#service-type:focus {
+  border-color: #ff6f00;
+  outline: none;
+  box-shadow: 0 0 6px rgba(255, 111, 0, 0.3);
+}
+
+
+#search-btn {
+  background: #ff6f00;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  padding: 12px 20px;
+  box-shadow: 0 4px 8px rgba(255, 111, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+#search-btn:hover {
+  background: #e65100;
+  transform: scale(1.05);
+}
+
+
+/* ---------- Map ---------- */
+#map {
+  height: 80vh;
+  width: 100%;
+  border-top: 3px solid #ff8f00;
+  animation: fadeIn 1.2s ease-in;
+}
+
+/* ---------- Animations ---------- */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------- Responsive Design ---------- */
+@media (max-width: 600px) {
+  #controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #search-input,
+  #service-type,
+  #search-btn {
+    width: 100%;
+  }
+}
