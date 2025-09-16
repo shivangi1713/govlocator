@@ -44,16 +44,16 @@ GovLocator is designed to assist citizens, especially in rural and urban areas, 
 ---
 
 ## 🚀 How to Use
-Open the Website
+1. Open the Website
 👉 https://shivangi1713.github.io/govlocator/
-Enter a location in the search bar (e.g., Delhi, Mumbai)
-Choose from available government services like:
+2. Enter a location in the search bar (e.g., Delhi, Mumbai).
+3. Choose from available government services like:
 [Health Centers (PHC)
 Police Stations
 Fire Stations
 Ration Shops (PDS)
 Schools / Colleges]
-Click “Search”
-Map displays markers for nearby government services
-Click a marker to see the service name and address
-🔄 Repeat to search other locations or service types
+4. Click “Search”.
+5. Map displays markers for nearby government services.
+6. Click a marker to see the service name and address.
+7. 🔄 Repeat to search other locations or service types.
